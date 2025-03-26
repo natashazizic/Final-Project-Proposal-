@@ -9,23 +9,70 @@ authors:
     affiliation: Colorado State University
     roles: writing
     corresponding: true
+format: html
 bibliography: references.bib
-csl: apa.csl 
+csl: apa.csl
 editor: 
   markdown: 
     wrap: sentence
 ---
 
+### Manatee Birth Rates and its Connection to Rising Ocean Temperatures 
+
+**Justification:**
+
+The Florida Keys mangroves are one of the most diverse ecosystems, providing a multitude of resources, ecosystem services and mitigation against natural disasters such as hurricanes @kathi. Manatees are a key species in these ecosystems and we want to learn more about their reproduction patterns, if the ocean temperature prohibits manatees from birthing in these areas and what the preferred temperatures for births might be.
+We are also interested in whether migration affects the birth rate of manatees and how that could be linked to ocean temperatures as well.
+Since manatees are an endangered species @litt, we hope that this research will tell us more about how climate change, increased ocean temperatures and global warming are affecting this species and what can be done to protect this species.
+Although there are many factors that impact manatee birth rates, we will be primarily focusing on its correlation specifically to ocean temperature.
+
+**Research question:** How are manatee birth rates being affected by rising ocean temperatures?
+
+**Proposed Methods:**
+
+For this study, we are planning on looking at manatee birth rates from the last 20 years specifically in the Florida Keys.
+We are planning on getting this data from the Florida Fish and Wildlife Conservation Commission.
+We are also going to be getting data about the local ocean temperatures from NOAA’s national data buoy center that records temperatures daily at Peterson Key.
+This will be a temporal and possibly spatial study- we want to see if there are any changes over time about the manatee birth rates and possibly see if the birth rates change because of ocean temperatures in certain areas.
+To find our results, we will do a correlation test, time series analysis and possibly a linear regression analysis.
+
+**Expected Outcomes:**
+
+We are expecting to find results about specific factors about manatee birth rates to see if/how they are correlated to rising ocean water temperatures.
+We are hoping to see if the rise of ocean temperatures might also affect things such as migration patterns and what that could mean for the local mangrove ecosystems. 
+
+### 
+
+### Sea Level Rise Inundation Analysis in Mediterranean marshes and its effects on Phragmites Australis Reeds
+
+**Justification:**
+
+Marsh ecosystems in the mediterranean are at risk due to anthropogenic interaction, micro tides, reduction in sediment accumulation and more @schu and have in fact decreased by 10% from 1975-2005.
+These marsh wetland ecosystems house a variety of different types of plants and animals.
+This study will be focusing on the Phragmites Australis Reed  also known as the common reed and is the dominant species in these types of ecosystems.
+There are previous studies about the common reed and how it can be used as a model for plant invasions @meyer, and so since the plant is so dominant we are hoping that there is substantial data for our study as well. 
+We chose this ecosystem since it is something that we have not researched before and is something that can provide insightful information specifically for the wetland ecosystem.
+
+**Research question:** How is the common reed affected by sea level rise inundation in Mediterranean marsh wetland ecosystems?
+
+**Proposed Methods:**
+
+We are hoping to use MODIS surface water data to demonstrate how the water levels have been acting thus far in addition to getting data on Phragmites Australis from USGS  and NatureServe Explorer.
+This study will also be conducted on a temporal scale and we will hopefully try to predict the effects on inundation up to 30 years from now (2055).
+The statistical analysis we will use are EDA to create a visualization time series plot and correlation and regression analyses. 
+
+**Expected Outcomes:**
+
+We are hoping to find out information regarding micro tides in wetlands and the effects of sea level rise inundation on the common reed.
+We chose a dominant species because this would have the biggest impact on this ecosystem should something negatively happen because of inundation. 
+
+### 
+
 ### Sea Level Rise & Coastal Flooding Events 
 
 **Justification:**
 
-Due to climate change impacts, there has been a consistent increase in sea levels across the globe (Vitousek et al. 2017).
-This trend is expected to continue as climate change worsens, and will likely have negative impacts on coastal regions (Vitousek et al. 2017).
-One of these impacts is flooding events, which will become more frequent as sea levels rise (Vitousek et al. 2017).
-There is a known relationship between these occurrences, but we do not yet understand its extent (Taherkhani et al. 2020).
-A study published in 2020 predicted that there was an exponential relationship between sea levels and coastal flooding, meaning that as ocean levels slowly increase, coastal regions will experience extremely severe and abundant flooding events (Taherkhani et al. 2020).
-Our study aims to dive deeper into this topic.
+Due to climate change impacts, there has been a consistent increase in sea levels across the globe @vito. This trend is expected to continue as climate change worsens, and will likely have negative impacts on coastal regions @vito. One of these impacts is flooding events, which will become more frequent as sea levels rise @vito. There is a known relationship between these occurrences, but we do not yet understand its extent @tahe. A study published in 2020 predicted that there was an exponential relationship between sea levels and coastal flooding, meaning that as ocean levels slowly increase, coastal regions will experience extremely severe and abundant flooding events @tahe. Our study aims to dive deeper into this topic.
 We want to look at data and trends over the past few decades to determine how sea level and flooding events have been linked, and how this relationship will progress into the future.
 
 **Question:** How does an increase in sea level affect coastal flooding events in the United States?
@@ -54,11 +101,8 @@ Coastal regions will be made aware that flooding will become more common, and ca
 
 As our climate changes and global temperatures increase, sea levels are bound to rise.
 This will have an impact on shorelines all over the world.
-Regardless, coastal development is continuing globally (Gracia et al. 2018).
-It is important that we understand the causes for coastal erosion, so we can work towards preventing it (Gracia et al. 2018).
-Our goal is to understand how different land types will be affected, and what factors will have the biggest impact on erosion.
-Some underlying causes come from climate and storms, ocean currents and tides, land use, and ecosystem types (Łabuz, Tomasz A. 2015).
-By understanding which of these factors have the most significant impacts, we can make progress towards fixing this inevitable problem.
+Regardless, coastal development is continuing globally @graci. It is important that we understand the causes for coastal erosion, so we can work towards preventing it @graci. Our goal is to understand how different land types will be affected, and what factors will have the biggest impact on erosion.
+Some underlying causes come from climate and storms, ocean currents and tides, land use, and ecosystem types @labuz. By understanding which of these factors have the most significant impacts, we can make progress towards fixing this inevitable problem.
 During our research, we will be comparing different areas to determine what is the biggest threat to rapid coastal erosion.
 
 **Question:** How have shorelines been altered by sea level rise in the United States over the past 50 years?
@@ -79,27 +123,4 @@ By comparing this with their conditions, we will be able to estimate the reasons
 We will gain a deeper understanding of how these changes are made and what outside factors alter shoreline appearance and structure.
 If our hypothesis is correct, we will conclude that over time, sea level rise will cause shorelines to change, but this will not be a uniform transformation across these coastlines, but will instead vary greatly from region to region.
 
-### Manatee Birth Rates and its Connection to Rising Ocean Temperatures 
-
-**Justification:**
-
-The Florida Keys mangroves are one of the most diverse ecosystems, providing a multitude of resources, ecosystem services and mitigation against natural disasters such as hurricanes (Kathiersan, 2012).
-Manatees are a key species in these ecosystems and we want to learn more about their reproduction patterns, if the ocean temperature prohibits manatees from birthing in these areas and what the preferred temperatures for births might be.
-We are also interested in whether migration affects the birth rate of manatees and how that could be linked to ocean temperatures as well.
-Since manatees are an endangered species (Littles, et al, 2026), we hope that this research will tell us more about how climate change, increased ocean temperatures and global warming are affecting this species and what can be done to protect this species.
-Although there are many factors that impact manatee birth rates, we will be primarily focusing on its correlation specifically to ocean temperature.
-
-**Research question:** How are manatee birth rates being affected by rising ocean temperatures?
-
-**Proposed Methods:**
-
-For this study, we are planning on looking at manatee birth rates from the last 20 years specifically in the Florida Keys.
-We are planning on getting this data from the Florida Fish and Wildlife Conservation Commission.
-We are also going to be getting data about the local ocean temperatures from NOAA’s national data buoy center that records temperatures daily at Peterson Key.
-This will be a temporal and possibly spatial study- we want to see if there are any changes over time about the manatee birth rates and possibly see if the birth rates change because of ocean temperatures in certain areas.
-To find our results, we will do a correlation test, time series analysis and possibly a linear regression analysis.
-
-**Expected Outcomes:**
-
-We are expecting to find results about specific factors about manatee birth rates to see if/how they are correlated to rising ocean water temperatures.
-We are hoping to see if the rise of ocean temperatures might also affect things such as migration patterns and what that could mean for the local mangrove ecosystems. 
+### 
