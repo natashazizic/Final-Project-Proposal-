@@ -21,7 +21,8 @@ editor:
 
 **Justification:**
 
-The Florida Keys mangroves are one of the most diverse ecosystems, providing a multitude of resources, ecosystem services and mitigation against natural disasters such as hurricanes @kathi. Manatees are a key species in these ecosystems and we want to learn more about their reproduction patterns, if the ocean temperature prohibits manatees from birthing in these areas and what the preferred temperatures for births might be.
+The Florida Keys mangroves are one of the most diverse ecosystems, providing a multitude of resources, ecosystem services and mitigation against natural disasters such as hurricanes @kathi.
+Manatees are a key species in these ecosystems and we want to learn more about their reproduction patterns, if the ocean temperature prohibits manatees from birthing in these areas and what the preferred temperatures for births might be.
 We are also interested in whether migration affects the birth rate of manatees and how that could be linked to ocean temperatures as well.
 Since manatees are an endangered species @litt, we hope that this research will tell us more about how climate change, increased ocean temperatures and global warming are affecting this species and what can be done to protect this species.
 Although there are many factors that impact manatee birth rates, we will be primarily focusing on its correlation specifically to ocean temperature.
@@ -68,11 +69,16 @@ We chose a dominant species because this would have the biggest impact on this e
 
 ### 
 
-### Sea Level Rise & Coastal Flooding Events 
+### Sea Level Rise & Coastal Flooding Events
 
 **Justification:**
 
-Due to climate change impacts, there has been a consistent increase in sea levels across the globe @vito. This trend is expected to continue as climate change worsens, and will likely have negative impacts on coastal regions @vito. One of these impacts is flooding events, which will become more frequent as sea levels rise @vito. There is a known relationship between these occurrences, but we do not yet understand its extent @tahe. A study published in 2020 predicted that there was an exponential relationship between sea levels and coastal flooding, meaning that as ocean levels slowly increase, coastal regions will experience extremely severe and abundant flooding events @tahe. Our study aims to dive deeper into this topic.
+Due to climate change impacts, there has been a consistent increase in sea levels across the globe @vito.
+This trend is expected to continue as climate change worsens, and will likely have negative impacts on coastal regions @vito.
+One of these impacts is flooding events, which will become more frequent as sea levels rise @vito.
+There is a known relationship between these occurrences, but we do not yet understand its extent @tahe.
+A study published in 2020 predicted that there was an exponential relationship between sea levels and coastal flooding, meaning that as ocean levels slowly increase, coastal regions will experience extremely severe and abundant flooding events @tahe.
+Our study aims to dive deeper into this topic.
 We want to look at data and trends over the past few decades to determine how sea level and flooding events have been linked, and how this relationship will progress into the future.
 
 **Question:** How does an increase in sea level affect coastal flooding events in the United States?
@@ -95,14 +101,17 @@ If our hypothesis is correct, we will conclude that a rise in sea levels will ca
 Additionally, this data can be used to predict changes that will come in the future if global trends continue.
 Coastal regions will be made aware that flooding will become more common, and can therefore be more prepared for these upcoming events.
 
-### Sea Level Rise & US Shorelines 
+### Sea Level Rise & US Shorelines
 
 **Justification:**
 
 As our climate changes and global temperatures increase, sea levels are bound to rise.
 This will have an impact on shorelines all over the world.
-Regardless, coastal development is continuing globally @graci. It is important that we understand the causes for coastal erosion, so we can work towards preventing it @graci. Our goal is to understand how different land types will be affected, and what factors will have the biggest impact on erosion.
-Some underlying causes come from climate and storms, ocean currents and tides, land use, and ecosystem types @labuz. By understanding which of these factors have the most significant impacts, we can make progress towards fixing this inevitable problem.
+Regardless, coastal development is continuing globally @graci.
+It is important that we understand the causes for coastal erosion, so we can work towards preventing it @graci.
+Our goal is to understand how different land types will be affected, and what factors will have the biggest impact on erosion.
+Some underlying causes come from climate and storms, ocean currents and tides, land use, and ecosystem types @labuz.
+By understanding which of these factors have the most significant impacts, we can make progress towards fixing this inevitable problem.
 During our research, we will be comparing different areas to determine what is the biggest threat to rapid coastal erosion.
 
 **Question:** How have shorelines been altered by sea level rise in the United States over the past 50 years?

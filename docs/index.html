@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ESS 330 Project Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<meta name="citation_title" content="ESS 330 Project Proposal">
+<meta name="citation_author" content="Natasha Zizc">
+<meta name="citation_author" content="Genesis Lacy">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Doubling of coastal flooding frequency within decades due to sea-level rise;,citation_author=Sean Vitousek;,citation_author=Patrick L Barnard;,citation_author=Charles H Fletcher;,citation_author=Neil Frazer;,citation_author=Li Erikson;,citation_author=Curt D Storlazzi;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_issue=1;,citation_volume=7;,citation_journal_title=Scientific reports;,citation_publisher=Nature Publishing Group UK London;">
+<meta name="citation_reference" content="citation_title=Sea-level rise exponentially increases coastal flood frequency;,citation_author=Mohsen Taherkhani;,citation_author=Sean Vitousek;,citation_author=Patrick L Barnard;,citation_author=Neil Frazer;,citation_author=Tiffany R Anderson;,citation_author=Charles H Fletcher;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_issue=1;,citation_volume=10;,citation_journal_title=Scientific reports;,citation_publisher=Nature Publishing Group UK London;">
+<meta name="citation_reference" content="citation_title=Environmental impacts—coastal erosion and coastline changes;,citation_author=Tomasz A Łabuz;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_journal_title=Second assessment of climate change for the Baltic Sea basin;,citation_publisher=Springer;">
+<meta name="citation_reference" content="citation_title=Use of ecosystems in coastal erosion management;,citation_author=Adriana Gracia;,citation_author=Nelson Rangel-Buitrago;,citation_author=Judith A Oakley;,citation_author=AT Williams;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;,citation_volume=156;,citation_journal_title=Ocean &amp;amp;amp; coastal management;,citation_publisher=Elsevier;">
+<meta name="citation_reference" content="citation_title=Importance of mangrove ecosystem;,citation_author=Kandasamy Kathiresan;,citation_publication_date=2012;,citation_cover_date=2012;,citation_year=2012;,citation_issue=10;,citation_volume=2;,citation_journal_title=International Journal of Marine Science;,citation_publisher=Citeseer;">
+<meta name="citation_reference" content="citation_title=A combined inverse method and multivariate approach for exploring population trends of florida manatees;,citation_author=Chanda J Littles;,citation_author=Sergei S Pilyugin;,citation_author=Thomas K Frazer;,citation_publication_date=2016;,citation_cover_date=2016;,citation_year=2016;,citation_issue=1;,citation_volume=32;,citation_journal_title=Marine Mammal Science;,citation_publisher=Wiley Online Library;">
+<meta name="citation_reference" content="citation_title=Large-scale loss of mediterranean coastal marshes under rising sea levels by 2100;,citation_author=Mark Schuerch;,citation_author=Joshua Kiesel;,citation_author=Olivier Boutron;,citation_author=Anis Guelmami;,citation_author=Claudia Wolff;,citation_author=Wolfgang Cramer;,citation_author=Nuno Caiola;,citation_author=Carles Ibáñez;,citation_author=Athanasios T Vafeidis;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=1;,citation_volume=6;,citation_journal_title=Communications Earth &amp;amp;amp; Environment;,citation_publisher=Nature Publishing Group UK London;">
+<meta name="citation_reference" content="citation_title=Phragmites australis as a model organism for studying plant invasions;,citation_author=Laura A Meyerson;,citation_author=James T Cronin;,citation_author=Petr Pyšek;,citation_publication_date=2016;,citation_cover_date=2016;,citation_year=2016;,citation_issue=9;,citation_volume=18;,citation_journal_title=Biological Invasions;,citation_publisher=Springer;">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">ESS 330 Project Proposal</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliation</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Natasha Zizc </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Colorado State University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Genesis Lacy </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Colorado State University
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#manatee-birth-rates-and-its-connection-to-rising-ocean-temperatures" id="toc-manatee-birth-rates-and-its-connection-to-rising-ocean-temperatures" class="nav-link active" data-scroll-target="#manatee-birth-rates-and-its-connection-to-rising-ocean-temperatures">Manatee Birth Rates and its Connection to Rising Ocean Temperatures&nbsp;</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#sea-level-rise-inundation-analysis-in-mediterranean-marshes-and-its-effects-on-phragmites-australis-reeds" id="toc-sea-level-rise-inundation-analysis-in-mediterranean-marshes-and-its-effects-on-phragmites-australis-reeds" class="nav-link" data-scroll-target="#sea-level-rise-inundation-analysis-in-mediterranean-marshes-and-its-effects-on-phragmites-australis-reeds">Sea Level Rise Inundation Analysis in Mediterranean marshes and its effects on Phragmites Australis Reeds</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#sea-level-rise-coastal-flooding-events" id="toc-sea-level-rise-coastal-flooding-events" class="nav-link" data-scroll-target="#sea-level-rise-coastal-flooding-events">Sea Level Rise &amp; Coastal Flooding Events</a></li>
+  <li><a href="#sea-level-rise-us-shorelines" id="toc-sea-level-rise-us-shorelines" class="nav-link" data-scroll-target="#sea-level-rise-us-shorelines">Sea Level Rise &amp; US Shorelines</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="manatee-birth-rates-and-its-connection-to-rising-ocean-temperatures" class="level3">
+<h3 class="anchored" data-anchor-id="manatee-birth-rates-and-its-connection-to-rising-ocean-temperatures">Manatee Birth Rates and its Connection to Rising Ocean Temperatures&nbsp;</h3>
+<p><strong>Justification:</strong></p>
+<p>The Florida Keys mangroves are one of the most diverse ecosystems, providing a multitude of resources, ecosystem services and mitigation against natural disasters such as hurricanes <span class="citation" data-cites="kathi">Kathiresan (<a href="#ref-kathi" role="doc-biblioref">2012</a>)</span>. Manatees are a key species in these ecosystems and we want to learn more about their reproduction patterns, if the ocean temperature prohibits manatees from birthing in these areas and what the preferred temperatures for births might be. We are also interested in whether migration affects the birth rate of manatees and how that could be linked to ocean temperatures as well. Since manatees are an endangered species <span class="citation" data-cites="litt">Littles et al. (<a href="#ref-litt" role="doc-biblioref">2016</a>)</span>, we hope that this research will tell us more about how climate change, increased ocean temperatures and global warming are affecting this species and what can be done to protect this species. Although there are many factors that impact manatee birth rates, we will be primarily focusing on its correlation specifically to ocean temperature.</p>
+<p><strong>Research question:</strong> How are manatee birth rates being affected by rising ocean temperatures?</p>
+<p><strong>Proposed Methods:</strong></p>
+<p>For this study, we are planning on looking at manatee birth rates from the last 20 years specifically in the Florida Keys. We are planning on getting this data from the Florida Fish and Wildlife Conservation Commission. We are also going to be getting data about the local ocean temperatures from NOAA’s national data buoy center that records temperatures daily at Peterson Key. This will be a temporal and possibly spatial study- we want to see if there are any changes over time about the manatee birth rates and possibly see if the birth rates change because of ocean temperatures in certain areas. To find our results, we will do a correlation test, time series analysis and possibly a linear regression analysis.</p>
+<p><strong>Expected Outcomes:</strong></p>
+<p>We are expecting to find results about specific factors about manatee birth rates to see if/how they are correlated to rising ocean water temperatures. We are hoping to see if the rise of ocean temperatures might also affect things such as migration patterns and what that could mean for the local mangrove ecosystems.&nbsp;</p>
+</section>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
+</section>
+<section id="sea-level-rise-inundation-analysis-in-mediterranean-marshes-and-its-effects-on-phragmites-australis-reeds" class="level3">
+<h3 class="anchored" data-anchor-id="sea-level-rise-inundation-analysis-in-mediterranean-marshes-and-its-effects-on-phragmites-australis-reeds">Sea Level Rise Inundation Analysis in Mediterranean marshes and its effects on Phragmites Australis Reeds</h3>
+<p><strong>Justification:</strong></p>
+<p>Marsh ecosystems in the mediterranean are at risk due to anthropogenic interaction, micro tides, reduction in sediment accumulation and more <span class="citation" data-cites="schu">Schuerch et al. (<a href="#ref-schu" role="doc-biblioref">2025</a>)</span> and have in fact decreased by 10% from 1975-2005. These marsh wetland ecosystems house a variety of different types of plants and animals. This study will be focusing on the Phragmites Australis Reed &nbsp;also known as the common reed and is the dominant species in these types of ecosystems. There are previous studies about the common reed and how it can be used as a model for plant invasions <span class="citation" data-cites="meyer">Meyerson et al. (<a href="#ref-meyer" role="doc-biblioref">2016</a>)</span>, and so since the plant is so dominant we are hoping that there is substantial data for our study as well.&nbsp; We chose this ecosystem since it is something that we have not researched before and is something that can provide insightful information specifically for the wetland ecosystem.</p>
+<p><strong>Research question:</strong> How is the common reed affected by sea level rise inundation in Mediterranean marsh wetland ecosystems?</p>
+<p><strong>Proposed Methods:</strong></p>
+<p>We are hoping to use MODIS surface water data to demonstrate how the water levels have been acting thus far in addition to getting data on Phragmites Australis from USGS&nbsp; and NatureServe Explorer. This study will also be conducted on a temporal scale and we will hopefully try to predict the effects on inundation up to 30 years from now (2055). The statistical analysis we will use are EDA to create a visualization time series plot and correlation and regression analyses.&nbsp;</p>
+<p><strong>Expected Outcomes:</strong></p>
+<p>We are hoping to find out information regarding micro tides in wetlands and the effects of sea level rise inundation on the common reed. We chose a dominant species because this would have the biggest impact on this ecosystem should something negatively happen because of inundation.&nbsp;</p>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+</section>
+<section id="sea-level-rise-coastal-flooding-events" class="level3">
+<h3 class="anchored" data-anchor-id="sea-level-rise-coastal-flooding-events">Sea Level Rise &amp; Coastal Flooding Events</h3>
+<p><strong>Justification:</strong></p>
+<p>Due to climate change impacts, there has been a consistent increase in sea levels across the globe <span class="citation" data-cites="vito">Vitousek et al. (<a href="#ref-vito" role="doc-biblioref">2017</a>)</span>. This trend is expected to continue as climate change worsens, and will likely have negative impacts on coastal regions <span class="citation" data-cites="vito">Vitousek et al. (<a href="#ref-vito" role="doc-biblioref">2017</a>)</span>. One of these impacts is flooding events, which will become more frequent as sea levels rise <span class="citation" data-cites="vito">Vitousek et al. (<a href="#ref-vito" role="doc-biblioref">2017</a>)</span>. There is a known relationship between these occurrences, but we do not yet understand its extent <span class="citation" data-cites="tahe">Taherkhani et al. (<a href="#ref-tahe" role="doc-biblioref">2020</a>)</span>. A study published in 2020 predicted that there was an exponential relationship between sea levels and coastal flooding, meaning that as ocean levels slowly increase, coastal regions will experience extremely severe and abundant flooding events <span class="citation" data-cites="tahe">Taherkhani et al. (<a href="#ref-tahe" role="doc-biblioref">2020</a>)</span>. Our study aims to dive deeper into this topic. We want to look at data and trends over the past few decades to determine how sea level and flooding events have been linked, and how this relationship will progress into the future.</p>
+<p><strong>Question:</strong> How does an increase in sea level affect coastal flooding events in the United States?</p>
+<p><strong>Hypothesis:</strong> As sea levels rise, we will see an extreme increase in both frequency and severity of coastal flooding events.</p>
+<p><strong>Methods:</strong></p>
+<p>To understand the relationship between sea level and coastal flooding, we will look at historical data In the United States. We will look in this area because there is an abundance of available data, and we can examine multiple different land and climate types. Data will come from NOAA and FEMA. NOAA has data on historical water levels as well as coastal flood frequency. FEMA provides many resources for looking at flooding trends and risks. We will have access to data and maps from these sources, that can be compared to understand past and current relationships.</p>
+<p><strong>Outcomes:</strong></p>
+<p>This study will explain how sea level rise due to climate change has impacted the frequency of coastal flooding events over recent decades. If our hypothesis is correct, we will conclude that a rise in sea levels will cause an increase in flooding instances. Additionally, this data can be used to predict changes that will come in the future if global trends continue. Coastal regions will be made aware that flooding will become more common, and can therefore be more prepared for these upcoming events.</p>
+</section>
+<section id="sea-level-rise-us-shorelines" class="level3">
+<h3 class="anchored" data-anchor-id="sea-level-rise-us-shorelines">Sea Level Rise &amp; US Shorelines</h3>
+<p><strong>Justification:</strong></p>
+<p>As our climate changes and global temperatures increase, sea levels are bound to rise. This will have an impact on shorelines all over the world. Regardless, coastal development is continuing globally <span class="citation" data-cites="graci">Gracia et al. (<a href="#ref-graci" role="doc-biblioref">2018</a>)</span>. It is important that we understand the causes for coastal erosion, so we can work towards preventing it <span class="citation" data-cites="graci">Gracia et al. (<a href="#ref-graci" role="doc-biblioref">2018</a>)</span>. Our goal is to understand how different land types will be affected, and what factors will have the biggest impact on erosion. Some underlying causes come from climate and storms, ocean currents and tides, land use, and ecosystem types <span class="citation" data-cites="labuz">Łabuz (<a href="#ref-labuz" role="doc-biblioref">2015</a>)</span>. By understanding which of these factors have the most significant impacts, we can make progress towards fixing this inevitable problem. During our research, we will be comparing different areas to determine what is the biggest threat to rapid coastal erosion.</p>
+<p><strong>Question:</strong> How have shorelines been altered by sea level rise in the United States over the past 50 years?</p>
+<p><strong>Hypothesis:</strong> Sea level rise will alter shorelines in varying ways across different parts of the country based on factors such as regional climate, ocean currents, surface structure, etc.</p>
+<p><strong>Methods:</strong></p>
+<p>The goal of this study is to understand which factors play the biggest role in increasing rates of coastal erosion. We will be comparing different regions around the United States. This will ensure that we can study different types of land use, climate, ecosystems and ocean conditions. USGS has maps and datasets with information regarding historical shoreline changes and sea level rise. We can use this information alongside NOAA’s data on water levels. We will look at different regions around the US and determine which ones are receding the most rapidly. By comparing this with their conditions, we will be able to estimate the reasons as to why.</p>
+<p><strong>Outcomes:</strong> In this study, we will look at how sea level rise is changing the shoreline of the United States. We will gain a deeper understanding of how these changes are made and what outside factors alter shoreline appearance and structure. If our hypothesis is correct, we will conclude that over time, sea level rise will cause shorelines to change, but this will not be a uniform transformation across these coastlines, but will instead vary greatly from region to region.</p>
+</section>
+<section id="section-2" class="level3 unnumbered">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-graci" class="csl-entry" role="listitem">
+Gracia, A., Rangel-Buitrago, N., Oakley, J. A., &amp; Williams, A. (2018). Use of ecosystems in coastal erosion management. <em>Ocean &amp; Coastal Management</em>, <em>156</em>, 277–289.
+</div>
+<div id="ref-kathi" class="csl-entry" role="listitem">
+Kathiresan, K. (2012). Importance of mangrove ecosystem. <em>International Journal of Marine Science</em>, <em>2</em>(10).
+</div>
+<div id="ref-labuz" class="csl-entry" role="listitem">
+Łabuz, T. A. (2015). Environmental impacts—coastal erosion and coastline changes. <em>Second Assessment of Climate Change for the Baltic Sea Basin</em>, 381–396.
+</div>
+<div id="ref-litt" class="csl-entry" role="listitem">
+Littles, C. J., Pilyugin, S. S., &amp; Frazer, T. K. (2016). A combined inverse method and multivariate approach for exploring population trends of florida manatees. <em>Marine Mammal Science</em>, <em>32</em>(1), 122–140.
+</div>
+<div id="ref-meyer" class="csl-entry" role="listitem">
+Meyerson, L. A., Cronin, J. T., &amp; Pyšek, P. (2016). Phragmites australis as a model organism for studying plant invasions. <em>Biological Invasions</em>, <em>18</em>(9), 2421–2431.
+</div>
+<div id="ref-schu" class="csl-entry" role="listitem">
+Schuerch, M., Kiesel, J., Boutron, O., Guelmami, A., Wolff, C., Cramer, W., Caiola, N., Ibáñez, C., &amp; Vafeidis, A. T. (2025). Large-scale loss of mediterranean coastal marshes under rising sea levels by 2100. <em>Communications Earth &amp; Environment</em>, <em>6</em>(1), 128.
+</div>
+<div id="ref-tahe" class="csl-entry" role="listitem">
+Taherkhani, M., Vitousek, S., Barnard, P. L., Frazer, N., Anderson, T. R., &amp; Fletcher, C. H. (2020). Sea-level rise exponentially increases coastal flood frequency. <em>Scientific Reports</em>, <em>10</em>(1), 6466.
+</div>
+<div id="ref-vito" class="csl-entry" role="listitem">
+Vitousek, S., Barnard, P. L., Fletcher, C. H., Frazer, N., Erikson, L., &amp; Storlazzi, C. D. (2017). Doubling of coastal flooding frequency within decades due to sea-level rise. <em>Scientific Reports</em>, <em>7</em>(1), 1399.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
